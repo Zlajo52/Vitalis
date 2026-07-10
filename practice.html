@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erasmus+ 2026 — Practice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="hr" type="button">HR</button>
+        <button class="lang-btn" data-lang="de" type="button">DE</button>
+      </div>
+      <div class="logo">Erasmus+<span>2026</span></div>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="tabs" id="tabs">
+      <a class="tab" href="index.html" data-i18n="nav.home">Home</a>
+
+      <div class="tab-dropdown">
+        <button class="tab dropdown-toggle tab--active" id="practiceToggle" aria-haspopup="true" aria-expanded="false">
+          <span data-i18n="nav.practice">Practice</span> <span class="caret">▾</span>
+        </button>
+        <div class="dropdown-menu" id="practiceMenu">
+          <a href="practice.html#it" data-i18n="nav.it">IT</a>
+          <a href="practice.html#3d-printing" data-i18n="nav.printing">3D Printing</a>
+          <a href="practice.html#wiring" data-i18n="nav.wiring">Wiring &amp; House Installations</a>
+          <a href="practice.html#smart-home" data-i18n="nav.smartHome">Smart Home</a>
+          <a href="practice.html#smart-home-2" data-i18n="nav.smartHome2">Smart Home pt2</a>
+          <a href="practice.html#game-making" data-i18n="nav.gameMaking">Game Making</a>
+        </div>
+      </div>
+
+      <a class="tab" href="culture.html" data-i18n="nav.culture">Culture</a>
+      <a class="tab" href="freetime.html" data-i18n="nav.freetime">Free Time</a>
+    </nav>
+  </header>
+
+  <!-- ALL PRACTICE (default view) -->
+  <div class="practice-view" data-view="all">
+    <div class="page-hero">
+    <section class="hero-slideshow">
+      <p class="slideshow-intro" data-i18n="intro.practice">practice at Vitalis</p>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="https://placehold.co/1200x675/6C63FF/FFFFFF?text=IT+Lab" alt="IT Lab" data-i18n-alt="practice.slide1">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="https://placehold.co/1200x675/8A82FF/FFFFFF?text=3D+Printing" alt="3D Printing" data-i18n-alt="practice.slide2">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="https://placehold.co/1200x675/6C63FF/FFFFFF?text=Soldering" alt="Soldering station" data-i18n-alt="practice.slide3">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="https://placehold.co/1200x675/8A82FF/FFFFFF?text=Team+Work" alt="Working together" data-i18n-alt="practice.slide4">
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+
+        <div class="caption-container">
+          <p class="caption-text"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="https://placehold.co/160x100/6C63FF/FFFFFF?text=1" alt="IT Lab" data-i18n-alt="practice.slide1">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="https://placehold.co/160x100/8A82FF/FFFFFF?text=2" alt="3D Printing" data-i18n-alt="practice.slide2">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="https://placehold.co/160x100/6C63FF/FFFFFF?text=3" alt="Soldering station" data-i18n-alt="practice.slide3">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="https://placehold.co/160x100/8A82FF/FFFFFF?text=4" alt="Working together" data-i18n-alt="practice.slide4">
+        </div>
+      </div>
+    </section>
+
+    <section class="story">
+      <h2 data-i18n="story.heading">What we did</h2>
+      <p data-i18n="practice.story">
+        Write here about the practice work — IT tasks, 3D printing, soldering,
+        whatever you actually did that day. This is just placeholder text, replace it later.
+      </p>
+    </section>
+    </div>
+  </div>
+
+  <!-- IT ONLY VIEW -->
+  <div class="practice-view" data-view="it" hidden>
+    <div class="page-hero">
+    <section class="hero-slideshow">
+      <p class="slideshow-intro">informatics at Vitalis</p>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/1070.jpg" alt="Informatics practice">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/1072.jpg" alt="Informatics practice">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/11781.jpg" alt="Informatics practice">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/11782.jpg" alt="Informatics practice">
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+
+        <div class="caption-container">
+          <p class="caption-text"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="images/1070.jpg" alt="Informatics practice">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/1072.jpg" alt="Informatics practice">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/11781.jpg" alt="Informatics practice">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/11782.jpg" alt="Informatics practice">
+        </div>
+      </div>
+    </section>
+
+    <section class="story">
+      <h2>Informatics</h2>
+      <p>
+        In the IT lab we worked through hands-on exercises together on the computers, including a fun task mapping out Leipzig City on screen. It was a relaxed but focused setting where we helped each other troubleshoot along the way.
+      </p>
+    </section>
+    </div>
+  </div>
+
+  <!-- WIRING & HOUSE INSTALLATIONS VIEW -->
+  <div class="practice-view" data-view="wiring" hidden>
+    <div class="page-hero">
+    <section class="hero-slideshow">
+      <p class="slideshow-intro">wiring &amp; house installations</p>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/1100.jpg" alt="Wiring and house installations practice">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/11809.jpg" alt="Wiring and house installations practice">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/11812.jpg" alt="Wiring and house installations practice">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/11815.jpg" alt="Wiring and house installations practice">
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+
+        <div class="caption-container">
+          <p class="caption-text"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="images/1100.jpg" alt="Wiring and house installations practice">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/11809.jpg" alt="Wiring and house installations practice">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/11812.jpg" alt="Wiring and house installations practice">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/11815.jpg" alt="Wiring and house installations practice">
+        </div>
+      </div>
+    </section>
+
+    <section class="story">
+      <h2>Wiring &amp; House Installations</h2>
+      <p>
+        Here we practiced real electrical installation work — mounting sockets, switches, and spotlights into a wall panel and wiring everything up ourselves. It was hands-on training in how a home's electrical system actually comes together behind the walls.
+      </p>
+    </section>
+    </div>
+  </div>
+
+  <!-- SMART HOME VIEW -->
+  <div class="practice-view" data-view="smart-home" hidden>
+    <div class="page-hero">
+    <section class="hero-slideshow">
+      <p class="slideshow-intro">smart home at Vitalis</p>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/1101.jpg" alt="Smart home practice">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/1102.jpg" alt="Smart home practice">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/IMG_20260703_122450.jpg" alt="Smart home practice">
+        </div>
+
+        <div class="mySlides fade" data-caption="Smart home automation demo">
+          <div class="numbertext">4 / 4</div>
+          <video controls preload="metadata" poster="images/smart-home-poster.jpg">
+            <source src="images/smart-home.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+
+        <div class="caption-container">
+          <p class="caption-text"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="images/1101.jpg" alt="Smart home practice">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/1102.jpg" alt="Smart home practice">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/IMG_20260703_122450.jpg" alt="Smart home practice">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/smart-home-poster.jpg" alt="Smart home automation demo">
+        </div>
+      </div>
+    </section>
+
+    <section class="story">
+      <h2>Smart Home</h2>
+      <p>
+        We set up and programmed smart home devices, including building a custom routine to control the bedroom lights automatically. Alongside the hands-on device work we also sketched out the wiring logic on paper before putting it into practice.
+      </p>
+    </section>
+    </div>
+  </div>
+
+  <!-- SMART HOME PT2 VIEW -->
+  <div class="practice-view" data-view="smart-home-2" hidden>
+    <div class="page-hero">
+    <section class="hero-slideshow">
+      <p class="slideshow-intro">smart home pt2 — sensors</p>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade" data-caption="Smart home sensors demo 1">
+          <div class="numbertext">1 / 4</div>
+          <video controls preload="metadata" poster="images/smart-home-2-11977-poster.jpg">
+            <source src="images/smart-home-2-11977.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="mySlides fade" data-caption="Smart home sensors demo 2">
+          <div class="numbertext">2 / 4</div>
+          <video controls preload="metadata" poster="images/smart-home-2-11978-poster.jpg">
+            <source src="images/smart-home-2-11978.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="mySlides fade" data-caption="Smart home sensors demo 3">
+          <div class="numbertext">3 / 4</div>
+          <video controls preload="metadata" poster="images/smart-home-2-11980-poster.jpg">
+            <source src="images/smart-home-2-11980.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="mySlides fade" data-caption="Smart home sensors demo 4">
+          <div class="numbertext">4 / 4</div>
+          <video controls preload="metadata" poster="images/smart-home-2-11982-poster.jpg">
+            <source src="images/smart-home-2-11982.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+
+        <div class="caption-container">
+          <p class="caption-text"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="images/smart-home-2-11977-poster.jpg" alt="Smart home sensors demo 1">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/smart-home-2-11978-poster.jpg" alt="Smart home sensors demo 2">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/smart-home-2-11980-poster.jpg" alt="Smart home sensors demo 3">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/smart-home-2-11982-poster.jpg" alt="Smart home sensors demo 4">
+        </div>
+      </div>
+    </section>
+
+    <section class="story">
+      <h2>Smart Home pt2</h2>
+      <p>
+        In this second smart home session we focused on sensors, wiring them up and testing how they trigger automated actions in the system. It built directly on the earlier smart home work, adding a layer of automation based on real-time input.
+      </p>
+    </section>
+    </div>
+  </div>
+
+  <!-- GAME MAKING VIEW -->
+  <div class="practice-view" data-view="game-making" hidden>
+    <div class="page-hero">
+    <section class="hero-slideshow">
+      <p class="slideshow-intro">game making at Vitalis</p>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 2</div>
+          <img src="images/game-making-1.jpg" alt="Building the game in Stencyl">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 2</div>
+          <img src="images/game-making-2.jpg" alt="The finished game in action">
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+
+        <div class="caption-container">
+          <p class="caption-text"></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="images/game-making-1.jpg" alt="Building the game in Stencyl">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/game-making-2.jpg" alt="The finished game in action">
+        </div>
+      </div>
+    </section>
+
+    <section class="story">
+      <h2>Game Making</h2>
+      <p>
+        We used Stencyl to build our own 2D game from scratch, structuring it into multiple levels and scenes as it came together. The result was a Space Invaders-style shooter where you defend against waves of descending aliens across a desert landscape.
+      </p>
+    </section>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+    <div class="footer-bottom" data-i18n="footer.copyright">&copy; 2026 Erasmus+ Vitalis Exchange</div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

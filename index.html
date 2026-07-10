@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erasmus+ 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="hr" type="button">HR</button>
+        <button class="lang-btn" data-lang="de" type="button">DE</button>
+      </div>
+      <div class="logo">Erasmus+<span>2026</span></div>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="tabs" id="tabs">
+      <a class="tab tab--active" href="index.html" data-i18n="nav.home">Home</a>
+
+      <div class="tab-dropdown">
+        <button class="tab dropdown-toggle" id="practiceToggle" aria-haspopup="true" aria-expanded="false">
+          <span data-i18n="nav.practice">Practice</span> <span class="caret">▾</span>
+        </button>
+        <div class="dropdown-menu" id="practiceMenu">
+          <a href="practice.html#it" data-i18n="nav.it">IT</a>
+          <a href="practice.html#3d-printing" data-i18n="nav.printing">3D Printing</a>
+          <a href="practice.html#wiring" data-i18n="nav.wiring">Wiring &amp; House Installations</a>
+          <a href="practice.html#smart-home" data-i18n="nav.smartHome">Smart Home</a>
+          <a href="practice.html#smart-home-2" data-i18n="nav.smartHome2">Smart Home pt2</a>
+          <a href="practice.html#game-making" data-i18n="nav.gameMaking">Game Making</a>
+        </div>
+      </div>
+
+      <a class="tab" href="culture.html" data-i18n="nav.culture">Culture</a>
+      <a class="tab" href="freetime.html" data-i18n="nav.freetime">Free Time</a>
+    </nav>
+  </header>
+
+  <section class="hero-slideshow">
+    <p class="slideshow-intro" data-i18n="intro.home">a peek at Vitalis</p>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="https://placehold.co/1200x675/6C63FF/FFFFFF?text=Welcome+Day" alt="Welcome day" data-i18n-alt="home.slide1">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="https://placehold.co/1200x675/8A82FF/FFFFFF?text=Vitalis+Campus" alt="Vitalis campus" data-i18n-alt="home.slide2">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="https://placehold.co/1200x675/6C63FF/FFFFFF?text=Leipzig+City" alt="Leipzig city" data-i18n-alt="home.slide3">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="https://placehold.co/1200x675/8A82FF/FFFFFF?text=Orientation" alt="Orientation day" data-i18n-alt="home.slide4">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="https://placehold.co/1200x675/6C63FF/FFFFFF?text=Group+Photo" alt="Group photo" data-i18n-alt="home.slide5">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="https://placehold.co/1200x675/8A82FF/FFFFFF?text=First+Impressions" alt="First impressions" data-i18n-alt="home.slide6">
+      </div>
+
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+
+      <div class="caption-container">
+        <p class="caption-text"></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://placehold.co/160x100/6C63FF/FFFFFF?text=1" alt="Welcome day" data-i18n-alt="home.slide1">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://placehold.co/160x100/8A82FF/FFFFFF?text=2" alt="Vitalis campus" data-i18n-alt="home.slide2">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://placehold.co/160x100/6C63FF/FFFFFF?text=3" alt="Leipzig city" data-i18n-alt="home.slide3">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://placehold.co/160x100/8A82FF/FFFFFF?text=4" alt="Orientation day" data-i18n-alt="home.slide4">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://placehold.co/160x100/6C63FF/FFFFFF?text=5" alt="Group photo" data-i18n-alt="home.slide5">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://placehold.co/160x100/8A82FF/FFFFFF?text=6" alt="First impressions" data-i18n-alt="home.slide6">
+      </div>
+    </div>
+  </section>
+
+  <main class="split split--solo">
+
+    <section class="board">
+      <h1 class="headline">
+        Erasmus+<br>
+        2026
+        <svg class="swoosh" viewBox="0 0 220 24" aria-hidden="true">
+          <path d="M4 16 C 60 26, 160 26, 216 6" />
+        </svg>
+      </h1>
+      <p class="board-text" data-i18n="index.boardText">
+        Three months in Leipzig — practice, culture, and good times.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+    <div class="footer-bottom" data-i18n="footer.copyright">&copy; 2026 Erasmus+ Vitalis Exchange</div>
+    <div class="footer-bottom" data-i18n="footer.address">address: Vitalis GmbH, Gut Wehlitz, 04435 Schkeuditz, Germany</div>
+    <div class="footer-bottom" data-i18n="footer.contact">contact: tel:+49 34204 77400 </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

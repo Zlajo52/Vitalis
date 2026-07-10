@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erasmus+ 2026 — Free Time</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="hr" type="button">HR</button>
+        <button class="lang-btn" data-lang="de" type="button">DE</button>
+      </div>
+      <div class="logo">Erasmus+<span>2026</span></div>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="tabs" id="tabs">
+      <a class="tab" href="index.html" data-i18n="nav.home">Home</a>
+
+      <div class="tab-dropdown">
+        <button class="tab dropdown-toggle" id="practiceToggle" aria-haspopup="true" aria-expanded="false">
+          <span data-i18n="nav.practice">Practice</span> <span class="caret">▾</span>
+        </button>
+        <div class="dropdown-menu" id="practiceMenu">
+          <a href="practice.html#it" data-i18n="nav.it">IT</a>
+          <a href="practice.html#3d-printing" data-i18n="nav.printing">3D Printing</a>
+          <a href="practice.html#wiring" data-i18n="nav.wiring">Wiring &amp; House Installations</a>
+          <a href="practice.html#smart-home" data-i18n="nav.smartHome">Smart Home</a>
+          <a href="practice.html#smart-home-2" data-i18n="nav.smartHome2">Smart Home pt2</a>
+          <a href="practice.html#game-making" data-i18n="nav.gameMaking">Game Making</a>
+        </div>
+      </div>
+
+      <a class="tab" href="culture.html" data-i18n="nav.culture">Culture</a>
+      <a class="tab tab--active" href="freetime.html" data-i18n="nav.freetime">Free Time</a>
+    </nav>
+  </header>
+
+  <div class="page-hero">
+  <section class="hero-slideshow">
+    <p class="slideshow-intro" data-i18n="intro.freetime">free time in Leipzig</p>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="https://placehold.co/1200x675/6C63FF/FFFFFF?text=Swimming" alt="Swimming" data-i18n-alt="freetime.slide1">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="https://placehold.co/1200x675/8A82FF/FFFFFF?text=New+Friends" alt="New friends" data-i18n-alt="freetime.slide2">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="https://placehold.co/1200x675/6C63FF/FFFFFF?text=Evening+Walk" alt="Evening walk" data-i18n-alt="freetime.slide3">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="https://placehold.co/1200x675/8A82FF/FFFFFF?text=Weekend+Trip" alt="Weekend trip" data-i18n-alt="freetime.slide4">
+      </div>
+
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+
+      <div class="caption-container">
+        <p class="caption-text"></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://placehold.co/160x100/6C63FF/FFFFFF?text=1" alt="Swimming" data-i18n-alt="freetime.slide1">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://placehold.co/160x100/8A82FF/FFFFFF?text=2" alt="New friends" data-i18n-alt="freetime.slide2">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://placehold.co/160x100/6C63FF/FFFFFF?text=3" alt="Evening walk" data-i18n-alt="freetime.slide3">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://placehold.co/160x100/8A82FF/FFFFFF?text=4" alt="Weekend trip" data-i18n-alt="freetime.slide4">
+      </div>
+    </div>
+  </section>
+
+  <section class="story">
+    <h2 data-i18n="story.heading">What we did</h2>
+    <p data-i18n="freetime.story">
+      Write here about free time — swimming, meeting new people, weekend trips,
+      whatever you got up to outside of practice. This is just placeholder text, replace it later.
+    </p>
+  </section>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+    <div class="footer-bottom" data-i18n="footer.copyright">&copy; 2026 Erasmus+ Vitalis Exchange</div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
