@@ -10,6 +10,9 @@ const translations = {
     "nav.smartHome": "Smart Home",
     "nav.smartHome2": "Smart Home pt2",
     "nav.gameMaking": "Game Making",
+    "nav.animation": "3D Animation",
+    "nav.animation2": "3D Animation pt2",
+    "nav.digitalBusiness": "Digital Business",
     "nav.culture": "Culture",
     "nav.freetime": "Free Time",
 
@@ -70,6 +73,9 @@ const translations = {
     "nav.smartHome": "Pametna kuća",
     "nav.smartHome2": "Pametna kuća dio 2",
     "nav.gameMaking": "Izrada igara",
+    "nav.animation": "3D animacija",
+    "nav.animation2": "3D animacija dio 2",
+    "nav.digitalBusiness": "Digitalno poslovanje",
     "nav.culture": "Kultura",
     "nav.freetime": "Slobodno vrijeme",
 
@@ -130,6 +136,9 @@ const translations = {
     "nav.smartHome": "Smart Home",
     "nav.smartHome2": "Smart Home Teil 2",
     "nav.gameMaking": "Spieleentwicklung",
+    "nav.animation": "3D-Animation",
+    "nav.animation2": "3D-Animation Teil 2",
+    "nav.digitalBusiness": "Digitales Geschäft",
     "nav.culture": "Kultur",
     "nav.freetime": "Freizeit",
 
