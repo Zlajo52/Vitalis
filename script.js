@@ -18,7 +18,22 @@ const translations = {
     "nav.houseModel": "House Model",
     "nav.houseModel2": "House Model pt2",
     "nav.appDev": "App Development",
+    "nav.graduation": "Graduation",
     "nav.culture": "Culture",
+    "culture.slide1": "University of Leipzig main building",
+    "culture.slide2": "The Reichstag building in Berlin",
+    "culture.slide3": "Brandenburg Gate in Berlin",
+    "culture.slide4": "Berlin Cathedral",
+    "culture.slide5": "The Altes Museum in Berlin",
+    "culture.slide6": "The World Clock at Alexanderplatz",
+    "culture.slide7": "In front of a church in Dresden",
+    "culture.slide8": "Another visit to Dresden's old town",
+    "culture.slide9": "At the Monument to the Battle of the Nations in Leipzig",
+    "culture.slide10": "313 steps to the top of the monument",
+    "culture.slide11": "The view over Leipzig from the top",
+    "culture.slide12": "On a group visit to BMW",
+    "freetime.slide1": "Watching football on a free evening",
+    "freetime.slide2": "Passing the BMW Group plant on a drive",
     "nav.freetime": "Free Time",
 
     "intro.home": "a peek at Vitalis",
@@ -38,34 +53,25 @@ const translations = {
 
     "story.heading": "What we did",
     "practice.story": "Write here about the practice work — IT tasks, 3D printing, soldering, whatever you actually did that day. This is just placeholder text, replace it later.",
-    "culture.story": "Write here about the culture side of the trip — traditions, food, history, places you visited. This is just placeholder text, replace it later.",
-    "freetime.story": "Write here about free time — swimming, meeting new people, weekend trips, whatever you got up to outside of practice. This is just placeholder text, replace it later.",
+    "culture.story": "We spent our weekends exploring beyond Leipzig: the university campus here, day trips to Dresden and its old town churches, and a full day in Berlin seeing the Reichstag, Brandenburg Gate, Berlin Cathedral and the Altes Museum. Closer to home we climbed the 313 steps of the Monument to the Battle of the Nations for a view over the whole city, and we also went on a group visit to BMW.",
+    "freetime.story": "Outside of practice we kept it simple — watching football together on a free evening, and taking in the sights on the road, like driving past the BMW Group plant.",
 
     "footer.copyright": "© 2026 Erasmus+ Vitalis Exchange",
     "footer.address": "address: Vitalis GmbH, Gut Wehlitz, 04435 Schkeuditz, Germany",
     "footer.contact": "contact: tel:+49 34204 77400",
 
-    "home.slide1": "Welcome day",
+    "home.slide1": "Arrival in Leipzig",
     "home.slide2": "Vitalis campus",
     "home.slide3": "Leipzig city",
     "home.slide4": "Orientation day",
     "home.slide5": "Group photo",
     "home.slide6": "First impressions",
+    "home.slide7": "Heading home",
 
     "practice.slide1": "IT Lab",
     "practice.slide2": "3D Printing",
     "practice.slide3": "Soldering station",
     "practice.slide4": "Working together",
-
-    "culture.slide1": "City tour",
-    "culture.slide2": "Local food",
-    "culture.slide3": "Museum visit",
-    "culture.slide4": "Old town",
-
-    "freetime.slide1": "Swimming",
-    "freetime.slide2": "New friends",
-    "freetime.slide3": "Evening walk",
-    "freetime.slide4": "Weekend trip"
   },
 
   hr: {
@@ -86,7 +92,22 @@ const translations = {
     "nav.houseModel": "Model kuće",
     "nav.houseModel2": "Model kuće dio 2",
     "nav.appDev": "Razvoj aplikacije",
+    "nav.graduation": "Dodjela certifikata",
     "nav.culture": "Kultura",
+    "culture.slide1": "Glavna zgrada Sveučilišta u Leipzigu",
+    "culture.slide2": "Zgrada Reichstaga u Berlinu",
+    "culture.slide3": "Brandenburška vrata u Berlinu",
+    "culture.slide4": "Berlinska katedrala",
+    "culture.slide5": "Altes Museum u Berlinu",
+    "culture.slide6": "Svjetski sat na Alexanderplatzu",
+    "culture.slide7": "Ispred crkve u Dresdenu",
+    "culture.slide8": "Još jedan posjet starom gradu Dresdena",
+    "culture.slide9": "Kod Spomenika bitci naroda u Leipzigu",
+    "culture.slide10": "313 stepenica do vrha spomenika",
+    "culture.slide11": "Pogled na Leipzig s vrha",
+    "culture.slide12": "Na grupnom posjetu BMW-u",
+    "freetime.slide1": "Gledanje nogometa u slobodnoj večeri",
+    "freetime.slide2": "Prolazak pored tvornice BMW Group",
     "nav.freetime": "Slobodno vrijeme",
 
     "intro.home": "pogled na Vitalis",
@@ -106,34 +127,25 @@ const translations = {
 
     "story.heading": "Što smo radili",
     "practice.story": "Ovdje napiši o praktičnom radu — IT zadaci, 3D ispis, lemljenje, sve što si zapravo tog dana radio. Ovo je samo tekst za popuniti, zamijeni ga kasnije.",
-    "culture.story": "Ovdje napiši o kulturnom dijelu putovanja — tradicije, hrana, povijest, mjesta koja si posjetio. Ovo je samo tekst za popuniti, zamijeni ga kasnije.",
-    "freetime.story": "Ovdje napiši o slobodnom vremenu — plivanje, upoznavanje novih ljudi, vikend izleti, sve što si radio izvan prakse. Ovo je samo tekst za popuniti, zamijeni ga kasnije.",
+    "culture.story": "Vikende smo provodili istražujući okolicu Leipziga: ovdje smo obišli sveučilišni kampus, otišli na izlete u Dresden i njegove crkve u starom gradu, te proveli cijeli dan u Berlinu gdje smo vidjeli Reichstag, Brandenburška vrata, Berlinsku katedralu i Altes Museum. Bliže kući popeli smo se uz 313 stepenica Spomenika bitci naroda za pogled na cijeli grad, a posjetili smo i BMW u grupi.",
+    "freetime.story": "Izvan prakse držali smo se jednostavnih stvari — gledanje nogometa zajedno u slobodnoj večeri, i uživanje u pogledima na cesti, poput prolaska pored tvornice BMW Group.",
 
     "footer.copyright": "© 2026 Erasmus+ Vitalis razmjena",
     "footer.address": "adresa: Vitalis GmbH, Gut Wehlitz, 04435 Schkeuditz, Njemačka",
     "footer.contact": "kontakt: tel:+49 34204 77400",
 
-    "home.slide1": "Dan dobrodošlice",
+    "home.slide1": "Dolazak u Leipzig",
     "home.slide2": "Kampus Vitalis",
     "home.slide3": "Grad Leipzig",
     "home.slide4": "Dan orijentacije",
     "home.slide5": "Grupna fotografija",
     "home.slide6": "Prvi dojmovi",
+    "home.slide7": "Povratak kući",
 
     "practice.slide1": "IT laboratorij",
     "practice.slide2": "3D ispis",
     "practice.slide3": "Stanica za lemljenje",
     "practice.slide4": "Zajednički rad",
-
-    "culture.slide1": "Razgledavanje grada",
-    "culture.slide2": "Lokalna hrana",
-    "culture.slide3": "Posjet muzeju",
-    "culture.slide4": "Stari grad",
-
-    "freetime.slide1": "Plivanje",
-    "freetime.slide2": "Novi prijatelji",
-    "freetime.slide3": "Večernja šetnja",
-    "freetime.slide4": "Vikend izlet"
   },
 
   de: {
@@ -154,7 +166,22 @@ const translations = {
     "nav.houseModel": "Hausmodell",
     "nav.houseModel2": "Hausmodell Teil 2",
     "nav.appDev": "App-Entwicklung",
+    "nav.graduation": "Abschluss",
     "nav.culture": "Kultur",
+    "culture.slide1": "Hauptgebäude der Universität Leipzig",
+    "culture.slide2": "Das Reichstagsgebäude in Berlin",
+    "culture.slide3": "Brandenburger Tor in Berlin",
+    "culture.slide4": "Berliner Dom",
+    "culture.slide5": "Das Alte Museum in Berlin",
+    "culture.slide6": "Die Weltzeituhr am Alexanderplatz",
+    "culture.slide7": "Vor einer Kirche in Dresden",
+    "culture.slide8": "Noch ein Besuch in der Dresdner Altstadt",
+    "culture.slide9": "Am Völkerschlachtdenkmal in Leipzig",
+    "culture.slide10": "313 Stufen bis zur Spitze des Denkmals",
+    "culture.slide11": "Der Blick über Leipzig von oben",
+    "culture.slide12": "Bei einem Gruppenbesuch bei BMW",
+    "freetime.slide1": "Fußball schauen an einem freien Abend",
+    "freetime.slide2": "Vorbeifahrt am BMW Group Werk",
     "nav.freetime": "Freizeit",
 
     "intro.home": "ein Einblick in Vitalis",
@@ -174,34 +201,25 @@ const translations = {
 
     "story.heading": "Was wir gemacht haben",
     "practice.story": "Schreibe hier über die praktische Arbeit — IT-Aufgaben, 3D-Druck, Löten, was auch immer du an diesem Tag gemacht hast. Dies ist nur Platzhaltertext, später ersetzen.",
-    "culture.story": "Schreibe hier über die kulturelle Seite der Reise — Traditionen, Essen, Geschichte, besuchte Orte. Dies ist nur Platzhaltertext, später ersetzen.",
-    "freetime.story": "Schreibe hier über die Freizeit — Schwimmen, neue Leute treffen, Wochenendausflüge, was auch immer du außerhalb der Praxis gemacht hast. Dies ist nur Platzhaltertext, später ersetzen.",
+    "culture.story": "An den Wochenenden haben wir Leipzig und die Umgebung erkundet: den Universitätscampus hier, Tagesausflüge nach Dresden mit seinen Altstadtkirchen und einen ganzen Tag in Berlin mit Reichstag, Brandenburger Tor, Berliner Dom und dem Alten Museum. Näher an zu Hause sind wir die 313 Stufen des Völkerschlachtdenkmals hinaufgestiegen, für einen Blick über die ganze Stadt, und wir haben gemeinsam BMW besucht.",
+    "freetime.story": "Außerhalb der Praxis hielten wir es einfach — gemeinsam Fußball schauen an einem freien Abend und die Aussicht unterwegs genießen, etwa bei der Vorbeifahrt am BMW Group Werk.",
 
     "footer.copyright": "© 2026 Erasmus+ Vitalis Austausch",
     "footer.address": "Adresse: Vitalis GmbH, Gut Wehlitz, 04435 Schkeuditz, Deutschland",
     "footer.contact": "Kontakt: tel:+49 34204 77400",
 
-    "home.slide1": "Willkommenstag",
+    "home.slide1": "Ankunft in Leipzig",
     "home.slide2": "Vitalis Campus",
     "home.slide3": "Stadt Leipzig",
     "home.slide4": "Orientierungstag",
     "home.slide5": "Gruppenfoto",
     "home.slide6": "Erste Eindrücke",
+    "home.slide7": "Auf dem Heimweg",
 
     "practice.slide1": "IT-Labor",
     "practice.slide2": "3D-Druck",
     "practice.slide3": "Lötstation",
     "practice.slide4": "Teamarbeit",
-
-    "culture.slide1": "Stadtrundgang",
-    "culture.slide2": "Lokales Essen",
-    "culture.slide3": "Museumsbesuch",
-    "culture.slide4": "Altstadt",
-
-    "freetime.slide1": "Schwimmen",
-    "freetime.slide2": "Neue Freunde",
-    "freetime.slide3": "Abendspaziergang",
-    "freetime.slide4": "Wochenendausflug"
   }
 };
 
